@@ -34,7 +34,7 @@ jobs:
             keys:
                 - npm_packages
       - run: npm i          
-      - run: npm aduit       
+      - run: npm audit       
 
 
 workflows:
