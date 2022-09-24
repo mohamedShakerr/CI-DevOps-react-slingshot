@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run: npm i
       - save_cache:
-            keys: "npm_packages"
+            key: "npm_packages"
             paths:
                 - /src/node_modules
       - run: npm run lint
